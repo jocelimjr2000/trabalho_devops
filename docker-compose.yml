@@ -3,9 +3,8 @@ version: "3.7"
 services:
 
     app:
-        #build: ./image
-        #image: nodejs:1.0
-        image: mynodejs:1.0
+        build: ./image
+        image: nodejs:1.0
         container_name: myapp
         restart: always
         ports:
